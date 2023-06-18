@@ -1,12 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Résumé</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles.css">
+    <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Ivan Chukhalo</h1>
+            <h3 class="contact-info__sub-header">
+              Student of Binary Studio Academy
+            </h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a
+                  href="tel:+380958079570"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="contact-info__item-icon"
+                      id="phone"
+                      x="0"
+                      y="0"
+                      version="1.1"
+                      viewBox="0 0 29 29"
+                      xml:space="preserve"
+                    >
+                      <path
+                        d="m20.914 17.743-2.091 1.178a1.319 1.319 0 0 1-1.58-.217l-6.979-6.979a1.32 1.32 0 0 1-.217-1.58l1.178-2.091a1.978 1.978 0 0 0-.325-2.37L7.766 2.55a1.978 1.978 0 0 0-2.798 0L3.545 3.972a5.276 5.276 0 0 0-.793 6.446l.714 1.19a41.36 41.36 0 0 0 14.946 14.631l.141.081c2.102 1.201 4.699.851 6.382-.831l1.486-1.486a1.978 1.978 0 0 0 0-2.798l-3.136-3.136a1.978 1.978 0 0 0-2.371-.326z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <span>095 807 9570</span>
+                </a>
+              </div>
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/avatar.png"
+                  alt="Avatar"
+                />
+              </div>
+
+              <div class="contact-info__block">
+                <a
+                  href="mailto:ivanchukhalo@gmail.com"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <svg
+                      class="contact-info__item-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="52 42 88 66"
+                    >
+                      <path
+                        fill="#4285f4"
+                        d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"
+                      />
+                      <path
+                        fill="#34a853"
+                        d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"
+                      />
+                      <path
+                        fill="#fbbc04"
+                        d="M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"
+                      />
+                      <path fill="#ea4335" d="M72 74V48l24 18 24-18v26L96 92" />
+                      <path
+                        fill="#c5221f"
+                        d="M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"
+                      />
+                    </svg>
+                  </div>
+                  <span>IvanChukhalo@gmail.com</span>
+                </a>
+              </div>
+            </div>
+            <div class="container">
+              <div class="intro">
+                <div class="intro__icon-wrapper">
+                  <svg
+                    class="intro__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="intro_text">
+                  Hello. I'm interested in web development, that's why I'm here.
+                  Now, I'm learning
+                  <a href="https://scrimba.com/learn/typescript" target="_blank"
+                    >TypeScript</a
+                  >
+                  (the basics of React are already behind) on
+                  <a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    target="_blank"
+                    >Scrimba</a
+                  >
+                  platform.
+                </p>
+              </div>
+            </div>
+            <div class="container">
+              <div class="resume__block">
+                <div class="skills">
+                  <h3 class="skills__header">Skills</h3>
+                  <ul class="skills__text">
+                    <li class="skills__item">React</li>
+                    <li class="skills__item">TypeScript</li>
+                    <li class="skills__item">HTML / CSS / JS</li>
+                    <li class="skills__item">Git / Github</li>
+                    <li class="skills__item">SASS / SCSS</li>
+                    <li class="skills__item">BEM</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <h3 class="experiences__header">Experience</h3>
+            <div class="experiences__company">
+              <div class="experiences__company-header">
+                <span class="experiences__company-header-durability"
+                  ><time datetime="2017-06-02">Since June 2nd, 2017</time></span
+                >
+                <h3 class="experiences__company-header-name">
+                    <a href="https://www.facebook.com/UniversalMcCannUkraine/?locale=ua_UA" target="_blank">
+                        Universal McCann Ukraine
+                    </a>
+                </h3>
+              </div>
+
+              <div class="experiences__company-project">
+                <span class="experiences__company-project-role"
+                  >Universal McCann Ukraine</span
+                >
+                <h3 class="experiences__company-project-name">
+                  TV Advertising Specialist
+                </h3>
+                <ul class="experiences__company-project-responsibilities">
+                  <li>Planning, launching and conducting of TV advertisiong campaigns.</li>
+                  <li>I am responsible for preparing a weekly analytical review of the TV advertising market (for colleagues and clients).</li>
+                  <li>I make reports for the client's audit on campaigns and provide them with recommendations and comments if necessary.</li>
+                  <li>Last but not least, I write cool scripts with VBA language for the company.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="additional-info fv">
+            <div class="additional-info__education">
+              <h3 class="additional-info__education-header">Education</h3>
+              <div class="additional-info__education-university">
+                <span class="additional-info__education-university-durability"
+                  ><time datetime="2011">2011</time> - <time datetime="2017">2017</time></span
+                >
+                <h3 class="additional-info__education-university-speciality">
+                    Taras Shevchenko National University of Kyiv
+                </h3>
+                <p class="additional-info__education-university-name">
+                    Faculty of Radiophysics, Electronics and Computer Systems
+                </p>
+              </div>
+            </div>
+
+            <div class="additional-info__languages">
+              <h3 class="additional-info__languages-header">Languages</h3>
+              <p class="additional-info__languages-item">
+                Ukrainian (Native)
+              </p>
+              <p class="additional-info__languages-item">
+                English (confident B1)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
